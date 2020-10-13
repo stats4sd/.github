@@ -2,6 +2,10 @@
   "name": "Deploy To Stats4SD Shiny Server Workflow",
   "description": "This workflow will automatically publish to the staging server when you push to the default (main) branch, and will publish to the live server when you make a new release",
   "iconName": "stats4sd-logo",
-  "categories": [ "R" ]
+  "categories": [ "R" ],
+"filePatterns": [
+        ".*\\.md$"
+    ]
+
   }
   
